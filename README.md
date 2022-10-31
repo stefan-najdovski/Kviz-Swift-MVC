@@ -20,6 +20,13 @@ struct NameOfStruct{
 init(){
  }
 }
+
+func someFuncThatReturnsFloat() -> Float{
+ //explicit literal conversion, not sure if I need the Float() better be safe than sorry
+ return Float(3.1415)
+}
+
+
 ```
 
 
